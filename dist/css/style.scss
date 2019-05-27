@@ -1,0 +1,81 @@
+@mixin background-size($property) {
+    -moz-background-size: $property; /* Firefox 3.6+ */
+    -webkit-background-size: $property; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: $property; /* Opera 9.6+ */
+    background-size: $property;
+}
+
+
+.booking-form nav .container .collapse ul li .nav-link:hover{
+    color:#bbda7d;
+    &:focus{
+    color:#bbda7d;
+    }
+}
+
+.booking-form{
+    background-image: url(/images/background1.jpg);
+    background-repeat:no-repeat;
+    @include background-size(100%);
+}
+.booking-form .jumbotron{
+    background: rgba(79, 207, 202, .5);
+    border-radius: 0px;
+}
+input[type='text'], input[type='search'] {
+    background-color:transparent;
+    font-family:Arial, 'FontAwesome';
+    border-radius: 0px;
+    color: white;
+    display: inline-block;
+    margin: 0 !important;
+    &:hover { 
+    background-color:transparent;
+    font-family:Arial, 'FontAwesome';
+    }
+    &:focus {
+        background-color:transparent;
+        font-family:Arial, 'FontAwesome';      
+    }
+    &::placeholder {
+        color:white;
+    }
+}
+button[type='submit']{
+    border-radius: 0px;
+}
+
+.video {
+    position: relative;
+    i{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        transform: translateY(-1350%);
+    }
+  }
+
+  .img-wrap {
+    position: relative;
+    h1{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+  }
+
+.map{
+    background-image: url(/images/6block_map.jpg);
+    background-repeat:no-repeat;
+    height: 600px;
+    @include background-size(100%);
+}
+
+.any{
+    position: relative;
+}

@@ -1,0 +1,90 @@
+@charset "UTF-8";
+.booking-form nav .container .collapse ul li .nav-link:hover {
+  color: #bbda7d;
+}
+.booking-form nav .container .collapse ul li .nav-link:hover:focus {
+  color: #bbda7d;
+}
+
+.booking-form {
+  background-image: url(/images/background1.jpg);
+  background-repeat: no-repeat;
+  -moz-background-size: 100%;
+  /* Firefox 3.6+ */
+  -webkit-background-size: 100%;
+  /* Safari 3.1+ и Chrome 4.0+ */
+  -o-background-size: 100%;
+  /* Opera 9.6+ */
+  background-size: 100%;
+}
+
+.booking-form .jumbotron {
+  background: rgba(79, 207, 202, 0.5);
+  border-radius: 0px;
+}
+
+input[type=text], input[type=search] {
+  background-color: transparent;
+  font-family: Arial, "FontAwesome";
+  border-radius: 0px;
+  color: white;
+  display: inline-block;
+  margin: 0 !important;
+}
+input[type=text]:hover, input[type=search]:hover {
+  background-color: transparent;
+  font-family: Arial, "FontAwesome";
+}
+input[type=text]:focus, input[type=search]:focus {
+  background-color: transparent;
+  font-family: Arial, "FontAwesome";
+}
+input[type=text]::placeholder, input[type=search]::placeholder {
+  color: white;
+}
+
+button[type=submit] {
+  border-radius: 0px;
+}
+
+.video {
+  position: relative;
+}
+.video i {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  transform: translateY(-1350%);
+}
+
+.img-wrap {
+  position: relative;
+}
+.img-wrap h1 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.map {
+  background-image: url(/images/6block_map.jpg);
+  background-repeat: no-repeat;
+  height: 600px;
+  -moz-background-size: 100%;
+  /* Firefox 3.6+ */
+  -webkit-background-size: 100%;
+  /* Safari 3.1+ и Chrome 4.0+ */
+  -o-background-size: 100%;
+  /* Opera 9.6+ */
+  background-size: 100%;
+}
+
+.any {
+  position: relative;
+}
+
+/*# sourceMappingURL=style.css.map */
